@@ -11,7 +11,7 @@ from telegram.ext import (
 from report import gerar_relatorio_pdf
 
 TOKEN = "7644187891:AAEo8AqDA1MvUnp0-klC3Z2ZtZXFElEjhjM"
-WEBHOOK_URL = "https://appnutri-j31s.onrender.com/webhook"
+WEBHOOK_URL = "https://appnutri-30oh.onrender.com/webhook"
 PORT = int(os.getenv("PORT", "8443"))
 
 (SEXO, IDADE, PESO, ALTURA, CINTURA, QUADRIL, TRICEPS, BICEPS, ATIVIDADE) = range(9)
