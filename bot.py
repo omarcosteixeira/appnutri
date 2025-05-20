@@ -20,7 +20,7 @@ dados = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "👋 Olá! Vamos começar a avaliação.\nQual o sexo do paciente? (masculino/feminino)"
+        "👋 Olá! Vamos começar a avaliação.\nQual o sexo do paciente? (m/f)"
     )
     return SEXO
 
