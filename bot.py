@@ -12,7 +12,7 @@ from report import gerar_relatorio_pdf
 
 # Usar variáveis de ambiente para segurança, mas como pediu, já coloco fixo aqui:
 TOKEN = "7644187891:AAEo8AqDA1MvUnp0-klC3Z2ZtZXFElEjhjM"
-WEBHOOK_URL = "https://appnutri-zn22.onrender.com"
+WEBHOOK_URL = "https://appnutri-zn22.onrender.com/webhook"
 PORT = int(os.getenv("PORT", "8443"))
 
 # Estados da conversa
